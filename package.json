@@ -1,0 +1,8 @@
+{
+  "name": "math-unicorn-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node tools/build.mjs", "test": "node --test tests/worker.test.mjs" },
+  "engines": { "node": ">=24" }
+}
