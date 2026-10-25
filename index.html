@@ -223,8 +223,8 @@ if(t.id==='reset'){document.getElementById('reset-dialog').showModal();return;}i
 });window.addEventListener('hashchange',()=>{render();window.scrollTo({top:0,behavior:'instant'});});render();
 
 </script><script>
-// Replace the empty value with your Cloudflare Worker HTTPS URL. Never put an API key here.
-const MATH_AI_API_BASE = "";
+// Cloudflare Worker HTTPS endpoint. Never put an API key here.
+const MATH_AI_API_BASE = "https://math-unicorn-ai.eliya240.workers.dev";
 (() => {
   'use strict';
   const CONFIG=typeof MATH_AI_API_BASE==='string'?MATH_AI_API_BASE:'';
