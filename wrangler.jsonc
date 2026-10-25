@@ -1,0 +1,15 @@
+{
+  "name": "math-unicorn-ai",
+  "main": "worker/worker.mjs",
+  "compatibility_date": "2026-10-25",
+  "workers_dev": true,
+  "observability": { "enabled": false },
+  "vars": {
+    "ALLOWED_ORIGIN": "https://eliyashtraser.github.io",
+    "OPENAI_MODEL": "gpt-6-astra",
+    "DAILY_FAMILY_LIMIT": "30"
+  },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "math-unicorn-ai", "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID" }
+  ]
+}
